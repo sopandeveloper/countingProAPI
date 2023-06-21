@@ -6,7 +6,7 @@ const url = 'mongodb://localhost:27017/countingpro'
   mongoose.connect(server_url, {
     useNewUrlParser: true
 }).then(() => { 
-    console.log('server database connected');
+    console.log('server db connected');
 }).catch((err) => { 
     console.log(err)
 })
